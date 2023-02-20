@@ -1,0 +1,4 @@
+# Spring Boot Annotations Cheat Sheet
+
+* `@SpringBootApplication`: This annotation is used with main class of Spring Boot Application. One of the most basic and helpful annotations, is `@SpringBootApplication`. `@SpringBootApplication` is `@Configuration`, `@EnableAutoConfiguration` and `@ComponentScan` annotations combined, configured with their default attributes. Ex: [SpringReactApplication.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2FSpringReact%2FSpringReactApplication.java)
+* `@RestController`: Controller Class annotated with `@RestController` has REST end points. Ex: [BookController.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2FSpringReact%2Fcontroller%2FBookController.java)
